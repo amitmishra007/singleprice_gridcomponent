@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  Font size: 16px;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(204, 43%, 93%);
+}
+.pgrid {
+  width: 40%;
+  height: 62%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px 0px hsla(180, 0%, 44%,0.3);
+}
+.upper {
+  width: 100%;
+  height: 45%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.lower {
+  width: 100%;
+  height: 55%;
+  display: flex;
+}
+.lowerl{
+width:50%;
+height:100%;
+background: hsl(179, 62%, 43%);
+border-bottom-left-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lowerr{
+width:50%;
+height:100%;
+border-bottom-right-radius: 5px;
+background: hsla(179, 62%, 43%, 0.75);
+display: flex;
+align-items: center;
+}
+h1{
+    
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 20px;
+}
+h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+}
+p{
+    margin-top: 1.8%;
+    line-height: 23px;
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 15px;
+}
+.inset{
+    width:86%;
+    height:62%;
+}
+.lowerr h3{
+    color: hsla(0, 0%, 100%, 0.9);
+}
+.lowerr p{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 13px;
+    line-height: 20px;
+}
+.setrdiv{
+    width:fit-content;
+    height:fit-content;
+    margin-left: 12%;
+}
+.lowerleftset{
+    width: 80%;
+    height:80%;
+
+
+}
+.lowerleftset h1{
+    color:hsla(0, 0%, 100%, 1);
+    font-weight: 400;
+    margin-top: 2.5%;
+}
+.lowerleftset h2{
+    color:hsla(0, 0%, 100%, 0.9);
+    font-size: 33px;
+}
+.twonine{
+    display:flex;
+  align-items: center;
+}
+.pm{width:50%}
+.pm p{
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 15px;
+   margin-left: 11%;
+   font-weight:lighter;
+
+}
+.lowerleftset h6{
+    color:hsla(0, 0%, 100%, 0.85);
+    font-weight: 400;
+    font-size: 15.5px;
+    margin-top: 5%;
+}
+button{
+    margin-top: 10px;
+    width: 95%;
+    height: 22%;
+    border-radius:5px;
+    border:none;
+    background:  hsl(71, 73%, 54%);
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 16px 44px 2px rgba(0,0,0,0.35);
+}
